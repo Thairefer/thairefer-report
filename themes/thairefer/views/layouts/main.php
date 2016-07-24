@@ -37,7 +37,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
                 <div class="left_col scroll-view">
 
                     <div class="navbar nav_title" style="border: 0;">
-                        <a href="<?php Yii::$app->homeUrl ?>" class="site_title"><i class="fa fa-paw"></i> <span>Thairefer Report</span></a>
+                        <a href="<?php Yii::$app->homeUrl ?>" class="site_title"><i class="fa fa-paw"></i> <span>Thairefer</span></a>
                     </div>
                     <div class="clearfix"></div>
 
