@@ -9,6 +9,9 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
+    'aliases'=>[
+        '@thairefer' => '@app/themes/thairefer',
+    ],
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
@@ -36,6 +39,13 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                   '@app/views' => '@app/themes/thairefer/views'
+                ],
+            ],
+       ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,
