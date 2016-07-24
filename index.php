@@ -1,3 +1,3 @@
 <?php
  header( "location: frontend/web/index.php" );
- exit(0);
+ exit(0); 
