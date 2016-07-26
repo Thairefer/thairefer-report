@@ -1,6 +1,9 @@
 Thairefer Report Project
 ===============================
 
+ก่อนติดตั้ง ให้ run คำสั่งนี้ใน command
+composer global require "fxp/composer-asset-plugin:~1.1.1"
+
 Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
 [![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-advanced/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
