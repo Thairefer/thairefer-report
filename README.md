@@ -1,7 +1,7 @@
 Thairefer Report Project
 ===============================
 
-ก่อนติดตั้ง ให้ run คำสั่งนี้ใน command
+ก่อนติดตั้ง ให้ run คำสั่งนี้ใน CMD (Command Promt)
 
 composer global require "fxp/composer-asset-plugin:~1.1.1"
 
